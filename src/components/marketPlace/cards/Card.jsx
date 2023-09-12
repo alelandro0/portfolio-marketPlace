@@ -17,8 +17,7 @@ const Card = ({ product, addItem, addedItems }) => {
         className={`absolute top-0 m-8 right-0 transform translate-x-1/2 -translate-y-1/2 bg-white text-black rounded-full p-2 cursor-pointer text-4xl font-bold `}
         style={{ maxWidth: "90%", maxHeight: "90%" }}
         onClick={handleAddItem}
-        disabled={isAdded || isProductAdded}
-      >
+              >
         +
       </button>
       <div className="p-4 h-[50%] flex flex-col justify-between">
